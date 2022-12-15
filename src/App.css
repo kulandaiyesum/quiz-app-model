@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+/* .greenTrue {
+  background-color: green;
+}
+.redFalse {
+  background-color: red;
+}
+.defaultColor{
+  background-color: none;
+} */
+.quiz-container {
+  display: flex;
+  justify-content: center;
+}
+.quiz-section, .score-section {
+  background-color:bisque;
+  height: fit-content;
+  margin: 3rem 0;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.question-text {
+  font-size: 20px;
+  padding:16px 0 8px 0;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.answer-section button {
+  background-color: none;
+  /* border: none; */
+}
+/* .answer-section button:hover {
+  background-color: blue;
+} */
